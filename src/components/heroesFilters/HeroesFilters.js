@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import classNames from 'classnames';
 
-import { useGetFiltersQuery } from '../../api/filtersApiSlice';
+import { useGetFiltersQuery } from '../../api/apiSlice';
 
 import {activeFilterChanged} from '../heroesFilters/filtersSlice'
 import Spinner from '../spinner/Spinner';

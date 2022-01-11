@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
-import { useCreateHeroMutation } from '../../api/heroesApiSlice';
-import { useGetFiltersQuery } from '../../api/filtersApiSlice';
+import { useCreateHeroMutation, useGetFiltersQuery } from '../../api/apiSlice';
 
 const HeroesAddForm = () => {
     const [heroName, setHeroName] = useState('');
